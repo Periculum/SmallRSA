@@ -17,7 +17,7 @@ print("Privater Schlüssel: ({:d},{:d})".format(d, n))
 nachricht = int(input("Beliebige Zahl zwischen 0 und 221 eintippen: "))
 
 # Verschlüsseln
-c = pow(nachricht, e, n)
+cypher = pow(nachricht, e, n)
 
 # Entschlüsseln
 print(str(pow(cypher, d, n)))
