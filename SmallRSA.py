@@ -1,4 +1,3 @@
-# RSA kodieren und dekodieren
 from Crypto.Util.number import inverse
 
 # Basiswerte
